@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer Application</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form name="form_main">
+      <div class="timer-app">
+        <!-- Heading -->
+        <h1>TIMER APPLICATION</h1>
+        <!-- Circle section -->
+        <div class="circle">
+          <div class="time">
+            <span id="hour">00</span>:<span id="minute">00</span>:<span
+              id="second"
+              >00</span
+            >
+          </div>
+        </div>
+        <!-- button section -->
+        <div class="buttons">
+          <button type="button" name="start">
+            <img src="icons/play-button.svg" />
+          </button>
+          <br />
+          <button type="button" name="pause">
+            <img src="icons/pause-button.svg" />
+          </button>
+          <br />
+          <button type="button" name="reset">
+            <img src="icons/stop-button.svg" />
+          </button>
+        </div>
+      </div>
+    </form>
+  </body>
+  <script src="src/script.js"></script>
+</html>
