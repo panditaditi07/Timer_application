@@ -10,3 +10,5 @@ Functions used for making this Timer Application :
 2. `clearInterval()` : This method clears a timer set with the setInterval() method.
 
    For Complete Documentation refer this [link](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval)
+
+   [Demo Link](https://panditaditi07.github.io/Timer_application/)
